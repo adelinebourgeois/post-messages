@@ -1,0 +1,28 @@
+{
+    "messages": [
+        {
+            "id": 1,
+            "userName": "Lara Croft",
+            "text": "Vivamus hendrerit ipsum eros, non vulputate elit cursus sed. Proin fringilla vestibulum lobortis. Vivamus blandit diam vitae massa iaculis blandit. Sed molestie pharetra nisl, sed lobortis nunc venenatis in. Duis vel leo id elit vestibulum iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent felis augue, aliquam quis nisl et, sollicitudin tincidunt augue.",
+            "type": "public"
+        },
+        {
+            "id": 2,
+            "userName": "Nathan Drake",
+            "text": "Sed ultricies odio dui, a auctor dolor posuere non. Integer sem mauris, molestie sed auctor vel, dictum eget ligula. Nunc pulvinar ex ut mattis accumsan. Etiam non tortor varius, blandit velit a, blandit lacus.",
+            "type": "public"
+        },
+        {
+            "id": 3,
+            "userName": "Cloud Strife",
+            "text": "Aenean tincidunt mattis risus, pulvinar accumsan ligula semper quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra.",
+            "type": "private"
+        },
+        {
+            "id": 4,
+            "userName": "Jin Sakai",
+            "text": "Quisque sit amet sollicitudin purus, non venenatis lacus. Aenean a tellus massa. Vestibulum tempor nisi eget lorem suscipit, vel commodo velit feugiat. ",
+            "type": "private"
+        }
+    ]
+}
