@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const USERNAME = 'Adeline';
+const userName = 'Adeline';
 
 const MessageForm = () => {
     const dispatch = useDispatch();
@@ -45,7 +45,7 @@ const MessageForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        dispatch({type: 'post', payload: { userName: USERNAME, text, type}})
+        dispatch({type: 'post', payload: { userName, text, type}})
     }
 
     return (

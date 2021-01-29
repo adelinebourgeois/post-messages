@@ -7,8 +7,6 @@ import store from './../../store';
 
 
 describe ("MessageForm", () => {
-    const USERNAME = 'Adeline';
-
     /* mocking useDispatch on our mock store */
     const useDispatchMock = jest.spyOn(reactRedux, 'useDispatch').mockImplementation(() => store.dispatch);;
 
@@ -19,6 +17,7 @@ describe ("MessageForm", () => {
     it('dispatch message action to store', () => {
         const dispatch = jest.fn();
         const { getByLabelText, getByText } = render(<MessageForm />);
+        const userName = 'Adeline';
         const filledInputText = 'Vivamus hendrerit ipsum eros';
         const radioButton = 'public';
 
@@ -28,6 +27,6 @@ describe ("MessageForm", () => {
         fireEvent.change(getByLabelText(/Public/i), { target: { value: radioButton } })
         fireEvent.click(getByText(/Envoyer/i));
 
-        expect(dispatch).toHaveBeenCalledWith({type: 'post', payload: { userName: USERNAME, text: filledInputText, type: radioButton}});
+        expect(dispatch).toHaveBeenCalledWith({type: 'post', payload: { userName, text: filledInputText, type: radioButton}});
     })
 })
