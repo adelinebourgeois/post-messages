@@ -18,7 +18,7 @@ beforeEach(() => {
 it('dispatch message action to store', () => {
     const dispatch = jest.fn();
     const onSubmit = jest.fn();
-    const { getByLabelText, getByText } = render(<Provider store={store}><MessageForm /></Provider>);
+    const { getByLabelText, getByText } = render(<MessageForm />);
     const filledInputText = 'Vivamus hendrerit ipsum eros';
     const radioButton = 'public';
 
@@ -27,6 +27,5 @@ it('dispatch message action to store', () => {
     fireEvent.change(getByLabelText(/Message/i), { target: { value: filledInputText } })
     fireEvent.click(getByText(/Envoyer/i));
 
-    expect(onSubmit).toBeCalled();
-    expect(dispatch).toHaveBeenCalledWith({type: 'post', payload: { userName: USERNAME, filledInputText, radioButton}});
+    expect(dispatch).toHaveBeenCalledWith({type: 'post', payload: { userName: USERNAME, text: filledInputText, type: radioButton}});
 })
