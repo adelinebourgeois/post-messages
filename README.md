@@ -14,7 +14,7 @@ Ce projet est mis en place avec [Create React App](https://github.com/facebook/c
 Il utilise **Redux**.  
 L'interface est mise en forme avec la librairie [Material UI](https://material-ui.com/).  
 Le linter est **ESLint**.  
-Les tests utilisent **Jest**.
+Les tests utilisent **Jest** et **react-testing-library**.
 
 ### Installer les dépendances
 
