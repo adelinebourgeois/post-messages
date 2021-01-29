@@ -1,7 +1,5 @@
 import React from "react";
-import { Provider } from 'react-redux';
 import * as reactRedux from 'react-redux';
-import store from '../../store';
 import {render, fireEvent} from '@testing-library/react'
 import MessageForm from "../messages/MessageForm";
 import {beforeEach, expect, it} from "@jest/globals";
@@ -17,7 +15,6 @@ beforeEach(() => {
 
 it('dispatch message action to store', () => {
     const dispatch = jest.fn();
-    const onSubmit = jest.fn();
     const { getByLabelText, getByText } = render(<MessageForm />);
     const filledInputText = 'Vivamus hendrerit ipsum eros';
     const radioButton = 'public';
