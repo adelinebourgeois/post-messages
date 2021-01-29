@@ -39,9 +39,13 @@ const MessageList = () => {
     // }, [])
 
     // const fetchMessages = async () => {
-    //    const response = await fetch("https://api.example.com/messages");
-    //    const data = await response.json();
-    //    dispatch({type:'initial', payload: data});
+    //      try {
+    //          const response = await fetch("https://api.example.com/messages");
+    //          const data = await response.json();
+    //          dispatch({type:'initial', payload: data});
+    //      } catch (e) {
+    //          dispatch({type: 'error', payload: e});
+    //      }
     // }
 
     return (

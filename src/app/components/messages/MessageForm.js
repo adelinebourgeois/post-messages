@@ -38,10 +38,10 @@ const useStyles = makeStyles((theme) => ({
 const USERNAME = 'Adeline';
 
 const MessageForm = () => {
-    const classes = useStyles();
     const dispatch = useDispatch();
     const [text, setText] = useState('');
     const [type, setType] = useState('public');
+    const classes = useStyles();
 
     const handleSubmit = (e) => {
         e.preventDefault();
