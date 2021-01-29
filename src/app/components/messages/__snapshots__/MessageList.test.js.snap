@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageList should render ListItem if messages.length > 0 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h5
+        class="MuiTypography-root makeStyles-text-3 MuiTypography-h5 MuiTypography-gutterBottom"
+      >
+        Messages
+      </h5>
+      <ul
+        class="MuiList-root makeStyles-root-1 MuiList-padding"
+      >
+        <div>
+          <li
+            class="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+          >
+            <div
+              class="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circle"
+              >
+                <img
+                  alt="Lara Croft"
+                  class="MuiAvatar-img"
+                  src="/static/images/avatar/1.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                <span
+                  class="MuiTypography-root makeStyles-inline-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                >
+                  Vivamus hendrerit ipsum eros, non vulputate elit cursus sed. Proin fringilla vestibulum lobortis. Vivamus blandit diam vitae massa iaculis blandit. Sed molestie pharetra nisl, sed lobortis nunc venenatis in. Duis vel leo id elit vestibulum iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent felis augue, aliquam quis nisl et, sollicitudin tincidunt augue.
+                </span>
+              </span>
+              <p
+                class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+              >
+                public
+              </p>
+            </div>
+          </li>
+          <li
+            class="MuiDivider-root"
+            role="separator"
+          />
+        </div>
+        <div>
+          <li
+            class="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+          >
+            <div
+              class="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circle"
+              >
+                <img
+                  alt="Nathan Drake"
+                  class="MuiAvatar-img"
+                  src="/static/images/avatar/1.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                <span
+                  class="MuiTypography-root makeStyles-inline-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                >
+                  Sed ultricies odio dui, a auctor dolor posuere non. Integer sem mauris, molestie sed auctor vel, dictum eget ligula. Nunc pulvinar ex ut mattis accumsan. Etiam non tortor varius, blandit velit a, blandit lacus.
+                </span>
+              </span>
+              <p
+                class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+              >
+                public
+              </p>
+            </div>
+          </li>
+          <li
+            class="MuiDivider-root"
+            role="separator"
+          />
+        </div>
+        <div>
+          <li
+            class="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+          >
+            <div
+              class="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circle"
+              >
+                <img
+                  alt="Cloud Strife"
+                  class="MuiAvatar-img"
+                  src="/static/images/avatar/1.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                <span
+                  class="MuiTypography-root makeStyles-inline-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                >
+                  Aenean tincidunt mattis risus, pulvinar accumsan ligula semper quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+                </span>
+              </span>
+              <p
+                class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+              >
+                private
+              </p>
+            </div>
+          </li>
+          <li
+            class="MuiDivider-root"
+            role="separator"
+          />
+        </div>
+        <div>
+          <li
+            class="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+          >
+            <div
+              class="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circle"
+              >
+                <img
+                  alt="Jin Sakai"
+                  class="MuiAvatar-img"
+                  src="/static/images/avatar/1.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                <span
+                  class="MuiTypography-root makeStyles-inline-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                >
+                  Quisque sit amet sollicitudin purus, non venenatis lacus. Aenean a tellus massa. Vestibulum tempor nisi eget lorem suscipit, vel commodo velit feugiat. 
+                </span>
+              </span>
+              <p
+                class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+              >
+                private
+              </p>
+            </div>
+          </li>
+          <li
+            class="MuiDivider-root"
+            role="separator"
+          />
+        </div>
+      </ul>
+    </div>
+  </body>,
+  "container": <div>
+    <h5
+      class="MuiTypography-root makeStyles-text-3 MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      Messages
+    </h5>
+    <ul
+      class="MuiList-root makeStyles-root-1 MuiList-padding"
+    >
+      <div>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        >
+          <div
+            class="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle"
+            >
+              <img
+                alt="Lara Croft"
+                class="MuiAvatar-img"
+                src="/static/images/avatar/1.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <span
+              class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              <span
+                class="MuiTypography-root makeStyles-inline-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+              >
+                Vivamus hendrerit ipsum eros, non vulputate elit cursus sed. Proin fringilla vestibulum lobortis. Vivamus blandit diam vitae massa iaculis blandit. Sed molestie pharetra nisl, sed lobortis nunc venenatis in. Duis vel leo id elit vestibulum iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent felis augue, aliquam quis nisl et, sollicitudin tincidunt augue.
+              </span>
+            </span>
+            <p
+              class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+            >
+              public
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiDivider-root"
+          role="separator"
+        />
+      </div>
+      <div>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        >
+          <div
+            class="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle"
+            >
+              <img
+                alt="Nathan Drake"
+                class="MuiAvatar-img"
+                src="/static/images/avatar/1.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <span
+              class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              <span
+                class="MuiTypography-root makeStyles-inline-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+              >
+                Sed ultricies odio dui, a auctor dolor posuere non. Integer sem mauris, molestie sed auctor vel, dictum eget ligula. Nunc pulvinar ex ut mattis accumsan. Etiam non tortor varius, blandit velit a, blandit lacus.
+              </span>
+            </span>
+            <p
+              class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+            >
+              public
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiDivider-root"
+          role="separator"
+        />
+      </div>
+      <div>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        >
+          <div
+            class="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle"
+            >
+              <img
+                alt="Cloud Strife"
+                class="MuiAvatar-img"
+                src="/static/images/avatar/1.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <span
+              class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              <span
+                class="MuiTypography-root makeStyles-inline-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+              >
+                Aenean tincidunt mattis risus, pulvinar accumsan ligula semper quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+              </span>
+            </span>
+            <p
+              class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+            >
+              private
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiDivider-root"
+          role="separator"
+        />
+      </div>
+      <div>
+        <li
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        >
+          <div
+            class="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle"
+            >
+              <img
+                alt="Jin Sakai"
+                class="MuiAvatar-img"
+                src="/static/images/avatar/1.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <span
+              class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              <span
+                class="MuiTypography-root makeStyles-inline-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
+              >
+                Quisque sit amet sollicitudin purus, non venenatis lacus. Aenean a tellus massa. Vestibulum tempor nisi eget lorem suscipit, vel commodo velit feugiat. 
+              </span>
+            </span>
+            <p
+              class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+            >
+              private
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiDivider-root"
+          role="separator"
+        />
+      </div>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

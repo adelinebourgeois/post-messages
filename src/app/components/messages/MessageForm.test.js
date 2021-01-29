@@ -2,27 +2,32 @@ import React from "react";
 import * as reactRedux from 'react-redux';
 import {render, fireEvent} from '@testing-library/react'
 import MessageForm from "../messages/MessageForm";
-import {beforeEach, expect, it} from "@jest/globals";
+import {beforeEach, describe, expect, it} from "@jest/globals";
+import store from './../../store';
 
-const USERNAME = 'Adeline';
 
-/* mocking useDispatch on our mock store */
-const useDispatchMock = jest.spyOn(reactRedux, 'useDispatch');
+describe ("MessageForm", () => {
+    const USERNAME = 'Adeline';
 
-beforeEach(() => {
-    useDispatchMock.mockClear()
-})
+    /* mocking useDispatch on our mock store */
+    const useDispatchMock = jest.spyOn(reactRedux, 'useDispatch').mockImplementation(() => store.dispatch);;
 
-it('dispatch message action to store', () => {
-    const dispatch = jest.fn();
-    const { getByLabelText, getByText } = render(<MessageForm />);
-    const filledInputText = 'Vivamus hendrerit ipsum eros';
-    const radioButton = 'public';
+    beforeEach(() => {
+        useDispatchMock.mockClear()
+    })
 
-    useDispatchMock.mockReturnValue(dispatch);
+    it('dispatch message action to store', () => {
+        const dispatch = jest.fn();
+        const { getByLabelText, getByText } = render(<MessageForm />);
+        const filledInputText = 'Vivamus hendrerit ipsum eros';
+        const radioButton = 'public';
 
-    fireEvent.change(getByLabelText(/Message/i), { target: { value: filledInputText } })
-    fireEvent.click(getByText(/Envoyer/i));
+        useDispatchMock.mockReturnValue(dispatch);
 
-    expect(dispatch).toHaveBeenCalledWith({type: 'post', payload: { userName: USERNAME, text: filledInputText, type: radioButton}});
+        fireEvent.change(getByLabelText(/Message/i), { target: { value: filledInputText } })
+        fireEvent.change(getByLabelText(/Public/i), { target: { value: radioButton } })
+        fireEvent.click(getByText(/Envoyer/i));
+
+        expect(dispatch).toHaveBeenCalledWith({type: 'post', payload: { userName: USERNAME, text: filledInputText, type: radioButton}});
+    })
 })

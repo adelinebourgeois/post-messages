@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const MessageList = () => {
-    // const dispatch = useDispatch; Permet d'envoyer une action au reducer
+    // const dispatch = useDispatch;
     const messages = useSelector(state => state.messages);
     const classes = useStyles();
 
@@ -56,8 +56,8 @@ const MessageList = () => {
             <List className={classes.root}>
                 {messages.map(message => {
                     return (
-                        <>
-                            <ListItem alignItems="flex-start" key={message.id}>
+                        <div key={message.id}>
+                            <ListItem alignItems="flex-start">
                                 <ListItemAvatar>
                                     <Avatar alt={message.userName} src="/static/images/avatar/1.jpg" />
                                 </ListItemAvatar>
@@ -76,7 +76,7 @@ const MessageList = () => {
                                 />
                             </ListItem>
                             <Divider variant="fullWidth" component="li" />
-                        </>
+                        </div>
                     )
                 })}
             </List>
